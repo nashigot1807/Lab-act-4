@@ -14,4 +14,3 @@ This activity refactors the original constructor-based `Vehicle` class to enforc
 - Enforced constructor validation for `year` (valid range: 1886 to 2026 inclusive; defaults to 2026 if invalid).
 - Added `public boolean setYear(int year)` returning `true` for valid updates (1886–2026) and `false` for invalid attempts while preserving the original year state.
 
-## Console Output & Test Demonstrations
